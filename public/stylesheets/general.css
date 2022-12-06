@@ -1,8 +1,12 @@
 *{
     margin: 0;
 }
+body {
+    font-family: 'Open Sans';
+}
 a {
     text-decoration: none;
+    color: black;
 }
 li {
     list-style: none;
@@ -13,6 +17,7 @@ ul, ol {
 
 h1{
     font-family: Raleway,sans-serif;
-    font-size: 72px;
+    font-weight: 700;
+    font-size: 65px;
     text-transform: uppercase;
 }
