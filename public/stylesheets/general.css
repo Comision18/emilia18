@@ -1,22 +1,29 @@
-*{
+* {
     margin: 0;
 }
+
 body {
-    font-family: 'Open Sans';
+    font-family: var(--tipografiaGeneral);
+    
 }
+
+main {
+    padding: 10px;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
-li {
+
+ul,
+ol {
+    padding: 0;
     list-style: none;
 }
-ul, ol {
-    padding: 0;
-}
 
-h1{
-    font-family: Raleway,sans-serif;
+h1 {
+    font-family: var(--tipografiaTitulos);
     font-weight: 700;
     font-size: 65px;
     text-transform: uppercase;

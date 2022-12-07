@@ -1,0 +1,42 @@
+
+.music__main--titulo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.music__main__nav {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.music__main__nav ul li a {
+  
+    color: gray;
+}
+
+.music__main__section__article {
+   margin-top: 60px;
+}
+
+.music__main__section__article h2{
+    text-transform: uppercase;
+    font-family: var(--tipografiaTitulos);
+    margin-bottom: 20px;
+}
+
+.music__main__section__article ol{
+    list-style: decimal-leading-zero;
+    margin-top: 30px;
+    padding-left: 40px;
+    line-height: 30px;
+}
+
+.music__main__section__article a{
+    display: inline-block;
+   margin-top: 30px;
+   color: grey;
+}
+
+.music__main__section__article--data{
+    margin-top: 20px;
+}

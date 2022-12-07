@@ -10,27 +10,29 @@
     <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 
-<body id="inicio">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">home</a></li>
-                <li><a href="/about">about</a></li>
-                <li><a href="/music">music</a></li>
-                <li><a href="/contact">contact</a></li>
+<body id="inicio" class="music">
+    <header class="header header--music">
+        <nav class="header__nav">
+            <ul class="header__nav--menu">
+                <li><a href="/">| home</a></li>
+                <li><a href="/about">| about</a></li>
+                <li><a href="/music">| music</a></li>
+                <li><a href="/contact">| contact |</a></li>
             </ul>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-spotify"></i></a>
-            <a href=""><i class="fa-brands fa-apple"></i></a>
-            <a href=""><i class="fa-brands fa-amazon"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-
+            <div class="header__nav--redes">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-spotify"></i></a>
+                <a href=""><i class="fa-brands fa-apple"></i></a>
+                <a href=""><i class="fa-brands fa-amazon"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
         </nav>
     </header>
-    <main>
-        <h5>Direct links</h5>
-        <nav>
+    <main class="music__main">
+        <h1 class="music__main--titulo">music //</h1>
+        <h4>Direct links</h4>
+        <nav class="music__main__nav">
             <ul>
                 <li><a href="#album">Album</a></li>
                 <li><a href="#organic">Video: Organic Love</a></li>
@@ -38,29 +40,29 @@
             </ul>
         </nav>
         <!-- caja para los albumes -->
-        <section>
+        <section class="music__main__section">
             <!-- caja albumes -->
-            <article id="album">
-                <h3>album <br>twist my reality</h3>
+            <article id="album" class="music__main__section__article">
+                <h2>album <br>twist my reality</h2>
                 <img src="/images/emilia-play-list.png" alt="" width="640">
                 <ol>
-                    <li><i class="fa fa-play"></i> Organic Love</li>
-                    <li><i class="fa fa-play"></i> Twist In My Reality</li>
-                    <li><i class="fa fa-play"></i> Street Light</li>
-                    <li><i class="fa fa-play"></i> Lorem ipsum dolor sit amet.</li>
+                    <li><i class="fa fa-play"></i> Organic Love | 02:40</li>
+                    <li><i class="fa fa-play"></i> Twist In My Reality | 02:10</li>
+                    <li><i class="fa fa-play"></i> Street Light 03:28</li>
+                    <li><i class="fa fa-play"></i> Love Don't Live Here Anymore (Cover) | 03:49</li>
                 </ol>
                 <a href="#inicio">Go Top</a>
             </article>
 
         </section>
         <!-- caja para los videos -->
-        <section>
+        <section class="music__main__section">
             <!-- caja de video -->
-            <article id="organic">
-                <h3>video <br>organic love</h3>
+            <article id="organic" class="music__main__section__article">
+                <h2>video <br>organic love</h2>
                 <iframe src="https://player.vimeo.com/video/135166028" width="640" height="360" frameborder="0"
                 allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                <div>
+                <div class="music__main__section__article--data">
                     <p>Directed by VINCE MALC & EMILIA COLE</p>
                     <p>Edited and Filmed by NICOLAS TROY</p>
                     <p>Produced by NIKI HEART,</p>
@@ -69,10 +71,10 @@
                 <a href="#inicio">Go Top</a>
             </article>
              <!-- caja de video -->
-             <article id="street">
-                <h3>video <br>street light</h3>
+             <article id="street" class="music__main__section__article">
+                <h2>video <br>street light</h2>
                 <iframe src="https://player.vimeo.com/video/134861419" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                <div>
+                <div class="music__main__section__article--data">
                     <p>Directed by VINCE MALC & EMILIA COLE</p>
                     <p>Edited and Filmed by NICOLAS TROY</p>
                     <p>Produced by NIKI HEART,</p>
